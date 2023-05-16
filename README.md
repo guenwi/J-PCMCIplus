@@ -51,7 +51,7 @@ python run_experiments.py --experiment 1
 ```
 
 This generates toy-data from a simplified version of the SCM above, namely from
-$$
+```math
 \begin{split}
     X^0_t &:=  0.5X^1_{t}+0.5C_\text{space}^0 + 0.5C_\text{space}^1 +0.5C_{\text{time}, t-1}^0 + 0.5C_{\text{time}, t-1}^1+ \eta^0\\
     X^1_t &:= 0.5X^1_{t-1}+ 0.5C_\text{space}^0 + 0.5C_\text{space}^1 +0.5C_{\text{time}, t-1}^0 +0.5C_{\text{time}, t-1}^1 + \eta^1\\
@@ -60,7 +60,7 @@ $$
     C_{\text{time},t}^0 &:= \eta^0_\text{time}\\
     C_{\text{time},t}^1 &:= \eta^1_\text{time}
 \end{split}
-$$
+```
 And then proceeds as described above.
 
 The results of this experimental setup are
@@ -72,7 +72,7 @@ python run_experiments.py --experiment 2
 ```
 
 This generates toy-data from the following SCM
-$$
+```math
         \begin{split}
             X^0_t &:=  0.5(X^1_{t})^2+0.5C_\text{space}^0 + 0.5C_\text{space}^1 +0.5C_{\text{time}, t-1}^0 + 0.5C_{\text{time}, t-1}^1+ \eta^0\\
             X^1_t &:= 0.5X^1_{t-1}+ 0.5C_\text{space}^0 + 0.5C_\text{space}^1 +0.5C_{\text{time}, t-1}^0 +0.5C_{\text{time}, t-1}^1 + \eta^1\\
@@ -81,7 +81,7 @@ $$
             C_{\text{time},t}^0 &:= \eta^0_\text{time}\\
             C_{\text{time},t}^1 &:= \eta^1_\text{time}
         \end{split}
-$$
+```
 And then proceeds as described above.
 The results of this experimental setup are
 <!-- ![parent-dependent x-affected](images/simple_hs_zdependent_x_combined_title.png) -->
