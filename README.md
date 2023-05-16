@@ -24,7 +24,8 @@ python run_experiments.py --experiment 0
 ```
 
 This generates toy-data from the SCM 
-$$ X^{i,m}_t = a_i X^{i,m}_{t-1} + \sum_{j} b_j X^{j,m}_{t-\tau_j} + 
+$$ 
+X^{i,m}_t = a_i X^{i,m}_{t-1} + \sum_{j} b_j X^{j,m}_{t-\tau_j} + 
 \sum_{j} c_jC^{\text{time},j}_{t-\tau_j} + \sum_{j} d_jC^{j, m}_\text{space} + \eta^{i,m}_t,
 $$
 where $i \in \mathcal{I}$, $t= 1, \ldots, T$, and $m=1, \ldots, M$, $C^{\text{time},k} \sim \mathcal{N}(0,1)$, 
