@@ -18,5 +18,5 @@ scipy==1.10.1
 six==1.16.0
 sklearn==0.0.post5
 threadpoolctl==3.1.0
-tigramite==5.2.0.2
+tigramite==5.2.1.8
 zipp==3.15.0
