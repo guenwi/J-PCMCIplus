@@ -84,8 +84,8 @@ This generates toy-data from the following SCM
 ```
 And then proceeds as described above.
 The results of this experimental setup are
-<!-- ![parent-dependent x-affected](images/simple_hs_zdependent_x_combined_title.png) -->
-<!-- ![parent-dependent xy-affected](images/simple_hs_xy_zdependent_combined_title.png) -->
+![time_conv](images/frac1-sys_nodes-nonlin2-timecon.png)
+![space_conv](images/frac1-sys_nodes-nonlin2-spacecon.png)
 
 ## Generating Data and Evaluating the Algorithm
 
