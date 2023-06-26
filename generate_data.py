@@ -417,7 +417,7 @@ def set_links(effect_candidates, L, cause_candidates, tau_max, dependency_funcs,
         else:
             chosen_links.append((cause, effect, tau))
 
-        links = populate_links(links, chosen_links, contemp_links, tau_max, dependency_coeffs, dependency_funcs,
+    links = populate_links(links, chosen_links, contemp_links, tau_max, dependency_coeffs, dependency_funcs,
                                random_state)
 
     return links
