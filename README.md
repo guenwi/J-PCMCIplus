@@ -1,4 +1,4 @@
-# Causal Discovery for time series from multiple datasets with latent contexts
+# Causal discovery for time series from multiple datasets with latent contexts
 
 This repository is the official implementation to reproduce the experiments described in "Causal Discovery for time 
 series from multiple datasets with latent contexts" by W. Günther, U. Ninad, and J. Runge (accepted at UAI 2023). 
